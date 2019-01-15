@@ -8,4 +8,8 @@ $(document).ready(function() {
     $("body").removeClass();
     $("body").addClass("light-theme");
   });
+
+  $(".clickable").click(function() {
+    $("#hidecontent").slideToggle();
+  });
 });
