@@ -23,3 +23,12 @@
 .hidecontent {
   display: none;
 }
+
+h1 {
+  text-align: center;
+}
+
+#navbuttons {
+  width: 100%;
+  text-align: center;
+}

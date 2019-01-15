@@ -10,7 +10,10 @@ $(document).ready(function() {
   });
 
   $(".clickable").click(function() {
-    $("#Example").remove();
-    $(".hidecontent").slideToggle();
+    $("#JavaScript").slideToggle();
+  });
+
+  $(".clickable2").click(function() {
+    $("#Example2").slideToggle();
   });
 });
