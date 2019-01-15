@@ -1,0 +1,21 @@
+.dark-theme {
+  background-color: black;
+  color: white;
+}
+
+.light-theme {
+  background-color: white;
+  color: black;
+}
+
+#darkbtn {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+#lightbtn {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
