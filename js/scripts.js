@@ -9,11 +9,11 @@ $(document).ready(function() {
     $("body").addClass("light-theme");
   });
 
-  $(".clickable").click(function() {
+  $("#JavaScriptLink").click(function() {
     $("#JavaScript").slideToggle();
   });
 
-  $(".clickable2").click(function() {
-    $("#Example2").slideToggle();
+  $("#OperatorsLink").click(function() {
+    $("#Operators").slideToggle();
   });
 });
