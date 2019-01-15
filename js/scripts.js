@@ -10,6 +10,7 @@ $(document).ready(function() {
   });
 
   $(".clickable").click(function() {
-    $("#hidecontent").slideToggle();
+    $("#Example").remove();
+    $(".hidecontent").slideToggle();
   });
 });
