@@ -1,12 +1,24 @@
 $(document).ready(function() {
   $("button#darkbtn").click(function() {
     $("body").removeClass();
+    $("li").removeClass();
     $("body").addClass("dark-theme");
+    $("li").addClass("link");
   });
 
   $("button#lightbtn").click(function() {
     $("body").removeClass();
+    $("li").removeClass();
     $("body").addClass("light-theme");
+    $("li").addClass("link");
+  });
+
+  $("button#earthbtn").click(function() {
+    $("body").removeClass();
+    $("li").removeClass();
+    $("body").addClass("earth-theme");
+    $("li").addClass("earthlink");
+    $("li").addClass("earthlink:hover");
   });
 
   $("#JavaScriptLink").click(function() {
