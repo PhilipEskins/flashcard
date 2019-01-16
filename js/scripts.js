@@ -57,5 +57,44 @@ $(document).ready(function() {
     $("#Returns").slideToggle();
   });
 
+  $("#ChainingLink").click(function() {
+    $("#Chaining").slideToggle();
+  });
+
+  $("#StringsLink").click(function() {
+    $("#Strings").slideToggle();
+  });
+
+  $("#BooleansLink").click(function() {
+    $("#Booleans").slideToggle();
+  });
+
+  $("#UndefinedLink").click(function() {
+    $("#Undefined").slideToggle();
+  });
+
+  $("#NaNLink").click(function() {
+    $("#NaN").slideToggle();
+  });
+
+  $("#EscapeLink").click(function() {
+    $("#Escape").slideToggle();
+  });
+
+  $("#AlertLink").click(function() {
+    $("#Alert").slideToggle();
+  });
+
+  $("#CommentsLink").click(function() {
+    $("#Comments").slideToggle();
+  });
+
+  $("#JQueryLink").click(function() {
+    $("#JQuery").slideToggle();
+  });
+
+  $("#AttributesLink").click(function() {
+    $("#Attributes").slideToggle();
+  });
 
 });
